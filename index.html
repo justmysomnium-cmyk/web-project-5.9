@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="ru">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="logo"
+        src="https://raw.githubusercontent.com/Habsida-Projects/css-task/6e9e02dd00912604d528e19344df3127ce2e8648/img/logo.svg"
+      />
+      <img
+        class="background"
+        src="https://github.com/Habsida-Projects/css-task/blob/main/img/bg.jpg?raw=true"
+        alt="background image"
+      />
+      <div class="main-content">
+        <h1 class="intrd1">Get iintoo it today</h1>
+        <h2 class="intrd2">
+          There is no charge or obligation upon registration.
+        </h2>
+        <section class="registration-options">
+          <a href="https://www.facebook.com/r.php?entry_point=login">
+            <button id="facebook">
+              <img
+                class="reg-logo"
+                src="https://raw.githubusercontent.com/Habsida-Projects/css-task/6e9e02dd00912604d528e19344df3127ce2e8648/img/facebook.svg"
+                alt="Facebook logo"
+              />
+              Register with Facebook
+            </button>
+          </a>
+          <a href="https://www.linkedin.com/signup?_l=ru">
+            <button id="linkedin">
+              <img
+                class="reg-logo"
+                src="https://raw.githubusercontent.com/Habsida-Projects/css-task/6e9e02dd00912604d528e19344df3127ce2e8648/img/linkedin.svg"
+                alt="LinkedIn logo"
+              />
+              Register with LinkedIn
+            </button>
+          </a>
+        </section>
+        <p id="or-line">OR</p>
+        <form class="email-reg">
+          <div class="email-reg-text">
+            <span>Email</span>
+            <input type="email" id="email" required />
+          </div>
+          <div class="email-reg-text">
+            <span>Phone</span>
+            <input type="phone" id="phone" required />
+          </div>
+        </form>
+        <h1 class="question1">What type of investor are you?</h1>
+        <h2 class="question2">Select the type of investor you are below</h2>
+        <form class="business-type">
+          <div class="inv-tip">
+            <label class="radio-custom">
+              <input
+                type="radio"
+                id="individual"
+                name="investor-type"
+                value="Individual"
+                required
+              />
+              <span class="circle"></span>Individual</label
+            >
+            <span class="info">i</span>
+            <span class="tip-text"
+              >I am a natural person investing on my own behalf as a sole owner,
+              joint tenant, or tenant in common.</span
+            >
+          </div>
+          <div class="inv-tip">
+            <label class="radio-custom">
+              <input
+                type="radio"
+                id="business"
+                name="investor-type"
+                value="Business"
+              />
+              <span class="circle"></span> Business</label
+            >
+            <span class="info">i</span>
+            <span class="tip-text"
+              >I am investing on behalf of a business entity such as a
+              corporation, partnership, LLC, or other business.</span
+            >
+          </div>
+          <div class="inv-tip">
+            <label class="radio-custom">
+              <input type="radio" id="IRA" name="investor-type" value="IRA" />
+              <span class="circle"></span> IRA</label
+            >
+            <span class="info">i</span>
+            <span class="tip-text"
+              >I am investing through an Individual Retirement Account (IRA)
+              established for my benefit.</span
+            >
+          </div>
+          <div class="inv-tip">
+            <label class="radio-custom">
+              <input
+                type="radio"
+                id="trust"
+                name="investor-type"
+                value="Trust"
+              />
+              <span class="circle"></span> Trust</label
+            >
+            <span class="info">i</span>
+            <span class="tip-text"
+              >I am investing on behalf of a trust, where assets are held and
+              managed by a trustee for the benefit of designated
+              beneficiaries.</span
+            >
+          </div>
+        </form>
+        <form class="agree-terms">
+          <label for="agree-terms">
+            <input type="checkbox" id="agree-terms" required />
+            I agree to the terms and conditions and receiving from iintoo
+            <a class="full-terms" href="google.com">View full terms</a></label
+          >
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
